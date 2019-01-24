@@ -1,0 +1,124 @@
+body{
+	background: url(http://www.csszengarden.com/200/pics/content_background.jpg);
+	background-size: cover;
+	background-position: top left;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+html{
+	padding: 0 5em 5em 5em;
+}
+div{
+	position: relative;
+}
+div.page-wrapper{
+	position: relative;
+	width: 66%;
+}
+header h1{
+	position: relative;
+	font-size: 3em;
+	letter-spacing: -2px;
+	float: right;
+	width: 50%;
+	clear: both;
+	color: #fff;
+	font-weight: 300;
+}
+header h2{
+	position: relative;
+	float: right;
+	width: 35%;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 16px;
+	clear: right;
+	top: -3.8em;
+	font-family: monospace;
+}
+a{
+	color: #333;
+}
+.summary{
+	position: relative;
+	width: 35%;
+	float: right;
+	clear: right;
+	top: -6em;
+	color: #fff;
+	font-size: 11px;
+}
+.summary p{
+	text-align: center;
+}
+.summary a{
+	color: #fff;
+}
+.preamble{
+	position: relative;
+	background-color:  rgba(188, 222, 250,0.2);
+	width: 50%;
+	clear: right;
+	top: -20px;
+	left: 5px;
+
+}
+.preamble h3{
+	padding: 2em 2em 0 2em;
+	text-align: center;
+	font-size: 18px;
+}
+.preamble p{
+	font-size: 12px;
+	padding: 0 3em 0 3em;
+}
+.preamble p:last-child{
+	padding-bottom: 1.5em;
+}
+.main{
+	position: relative;
+	top: -30px;
+	background-color:  rgba(188, 222, 250,0.2);
+	width: 50%;
+	float: left;
+	clear: left;
+	left: 5px;
+}
+.main p{
+	font-size: 12px;
+	padding: 0 3em 0 3em;
+
+}
+.main h3{
+	padding: 2em 2em 0 2em;
+	text-align: center;
+	font-size: 18px;
+}
+.requirements p:last-child{
+	padding-bottom: 1.5em;
+}
+footer{
+	padding: 0 3em 4em 5em;
+}
+.sidebar{
+	position: relative;
+	float: right;
+	width: 30%;
+	top: -346px;
+	background-color:  rgba(188, 222, 250,0.2);
+
+}
+
+.sidebar h3{
+	text-align: center;
+}
+li{
+	list-style: lower-roman;
+	text-align: center;
+	padding-right: 1em;
+	padding-bottom: 1em; 
+}
+.sidebar li a{
+	text-decoration: none;
+}
